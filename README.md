@@ -20,7 +20,7 @@ analíticos no Power BI. Cada um deles envolve dados estratégicos diferentes, m
   - **conexao_main/**: Scripts de criação da estrutura principal do banco e do seu historiamento.
     - **executar_depois/**: Script dos triggers da auditoria, que devem ser executados somente após a execução de **conexao_auditoria/**.
 - **modelo/**: Aqui você encontra detalhes do modelo relacional do banco.
-
+- **testes/**: Contém inserts e consultas exemplo, para testar o banco implementado.
 ## Implementação: 
 
 **Ordem pastas**: conexao_admin/ > conexao_main/ > conexao_auditoria > conexao_main/executar_depois/ > conexao_dw/.
