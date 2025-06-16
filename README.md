@@ -1,9 +1,11 @@
-# Banco de Dados para Ocorrências Registradas pela Polícia Federal
+# Banco de Dados para Ocorrências Registradas pela PF
 
-Este modelo foi desenvolvido para a matéria Laboratório de Banco de Dados, o qual contempla os dados do Sistema Nacional de Armas (SINARM), fornecidos pela Polícia Federal. 
+Este modelo foi desenvolvido na disciplina de Laboratório de Banco de Dados, o qual contempla os dados do Sistema 
+Nacional de Armas (SINARM), fornecidos pela Polícia Federal. Foi utilizado o SGBD Oracle Database, aplicando os 
+princípios de normalização 3FN, elaboração de modelos relacionais e lógicos e conhecimentos SQL como um todo.
 
-Para o desenvolvimento do projeto, foi utilizado o Oracle Database, SGBD contemplado nas aulas da faculdade.
+## Dashboards em Power BI
+No fim, cada integrante criou uma _Dynamic_ e uma _Materialized View_, com bases nas quais foram feitos Dashboards
+analíticos no Power BI. Cada um deles envolve dados estratégicos diferentes, mas que se complementam.
 
-Foi feita a normalização 3FN do dataset, seguida da elaboração dos modelos relacionais, os quais formaram a estrutura do banco. Na etapa da implementação no SQL Developer, foram utilizados Triggers e Sequences para atribuição dos IDs das PKs. Tabelas de historiamento e de auditoria também foram inclusas, por meio de mais Triggers e o uso de Procedures.
-
-Esse projeto incluiu todo o passo a passo da estruturação de um Banco de Dados. Foi essencial para solidificar cada etapa da criação do banco e os conhecimentos em SQL como um todo.
+**OBS:** Para ver os relatórios, é necessário instalar o Power BI em sua máquina.
